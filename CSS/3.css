@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(180.23deg, #F54C41 0.2%, rgba(255, 255, 255, 0) 115.65%);
+    background-repeat: no-repeat;
+    padding: 30px 100px 70px 114px;
+    font-family: Garamond;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainIcon {
+    float: left;
+}
+
+.mainIcon h1 {
+    font-size: 87px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    /* identical to box height */
+    color: #F5F5DC;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+#alanVideo {
+    display: block;
+    margin: auto;
+    width: 1687px;
+    height: 1115px;
+}
